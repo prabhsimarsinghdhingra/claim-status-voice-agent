@@ -73,7 +73,7 @@ jobs:
           --cov-fail-under=90 --junitxml=junit.xml
       - name: Upload coverage + junit
         if: always() && matrix.python == '3.12' && matrix.os == 'ubuntu-latest'
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: test-reports
           path: |
@@ -97,7 +97,7 @@ jobs:
       - name: Publish results to the job summary
         if: always()
         run: cat benchmark_rules.md >> "$GITHUB_STEP_SUMMARY"
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@v7
         if: always()
         with:
           name: benchmark-rules
