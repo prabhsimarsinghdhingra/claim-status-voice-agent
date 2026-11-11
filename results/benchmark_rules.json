@@ -1,0 +1,1133 @@
+{
+  "calls": 160,
+  "call_success_rate": 1.0,
+  "field_accuracy": 1.0,
+  "decision_ms_p50": 0.0,
+  "decision_ms_p95": 0.0,
+  "mean_turns": 8.1,
+  "llm_fallbacks_to_rules": 0,
+  "grounding_drops": 0,
+  "api_calls": 0,
+  "rows": [
+    {
+      "scenario": "ivr_paid",
+      "passed": true,
+      "fields": "6/6",
+      "turns": 8,
+      "mean_ms": 0.2
+    },
+    {
+      "scenario": "ivr_paid",
+      "passed": true,
+      "fields": "6/6",
+      "turns": 8,
+      "mean_ms": 0.0
+    },
+    {
+      "scenario": "ivr_paid",
+      "passed": true,
+      "fields": "6/6",
+      "turns": 8,
+      "mean_ms": 0.0
+    },
+    {
+      "scenario": "ivr_paid",
+      "passed": true,
+      "fields": "6/6",
+      "turns": 8,
+      "mean_ms": 0.0
+    },
+    {
+      "scenario": "ivr_paid",
+      "passed": true,
+      "fields": "6/6",
+      "turns": 8,
+      "mean_ms": 0.0
+    },
+    {
+      "scenario": "ivr_paid",
+      "passed": true,
+      "fields": "6/6",
+      "turns": 8,
+      "mean_ms": 0.0
+    },
+    {
+      "scenario": "ivr_paid",
+      "passed": true,
+      "fields": "6/6",
+      "turns": 8,
+      "mean_ms": 0.0
+    },
+    {
+      "scenario": "ivr_paid",
+      "passed": true,
+      "fields": "6/6",
+      "turns": 8,
+      "mean_ms": 0.0
+    },
+    {
+      "scenario": "ivr_paid",
+      "passed": true,
+      "fields": "6/6",
+      "turns": 8,
+      "mean_ms": 0.0
+    },
+    {
+      "scenario": "ivr_paid",
+      "passed": true,
+      "fields": "6/6",
+      "turns": 8,
+      "mean_ms": 0.0
+    },
+    {
+      "scenario": "ivr_paid",
+      "passed": true,
+      "fields": "6/6",
+      "turns": 8,
+      "mean_ms": 0.0
+    },
+    {
+      "scenario": "ivr_paid",
+      "passed": true,
+      "fields": "6/6",
+      "turns": 8,
+      "mean_ms": 0.0
+    },
+    {
+      "scenario": "ivr_paid",
+      "passed": true,
+      "fields": "6/6",
+      "turns": 8,
+      "mean_ms": 0.0
+    },
+    {
+      "scenario": "ivr_paid",
+      "passed": true,
+      "fields": "6/6",
+      "turns": 8,
+      "mean_ms": 0.0
+    },
+    {
+      "scenario": "ivr_paid",
+      "passed": true,
+      "fields": "6/6",
+      "turns": 8,
+      "mean_ms": 0.0
+    },
+    {
+      "scenario": "ivr_paid",
+      "passed": true,
+      "fields": "6/6",
+      "turns": 8,
+      "mean_ms": 0.0
+    },
+    {
+      "scenario": "ivr_paid",
+      "passed": true,
+      "fields": "6/6",
+      "turns": 8,
+      "mean_ms": 0.0
+    },
+    {
+      "scenario": "ivr_paid",
+      "passed": true,
+      "fields": "6/6",
+      "turns": 8,
+      "mean_ms": 0.0
+    },
+    {
+      "scenario": "ivr_paid",
+      "passed": true,
+      "fields": "6/6",
+      "turns": 8,
+      "mean_ms": 0.0
+    },
+    {
+      "scenario": "ivr_paid",
+      "passed": true,
+      "fields": "6/6",
+      "turns": 8,
+      "mean_ms": 0.0
+    },
+    {
+      "scenario": "ivr_denied_medical_necessity",
+      "passed": true,
+      "fields": "7/7",
+      "turns": 8,
+      "mean_ms": 0.0
+    },
+    {
+      "scenario": "ivr_denied_medical_necessity",
+      "passed": true,
+      "fields": "7/7",
+      "turns": 8,
+      "mean_ms": 0.0
+    },
+    {
+      "scenario": "ivr_denied_medical_necessity",
+      "passed": true,
+      "fields": "7/7",
+      "turns": 8,
+      "mean_ms": 0.0
+    },
+    {
+      "scenario": "ivr_denied_medical_necessity",
+      "passed": true,
+      "fields": "7/7",
+      "turns": 8,
+      "mean_ms": 0.0
+    },
+    {
+      "scenario": "ivr_denied_medical_necessity",
+      "passed": true,
+      "fields": "7/7",
+      "turns": 8,
+      "mean_ms": 0.0
+    },
+    {
+      "scenario": "ivr_denied_medical_necessity",
+      "passed": true,
+      "fields": "7/7",
+      "turns": 8,
+      "mean_ms": 0.0
+    },
+    {
+      "scenario": "ivr_denied_medical_necessity",
+      "passed": true,
+      "fields": "7/7",
+      "turns": 8,
+      "mean_ms": 0.0
+    },
+    {
+      "scenario": "ivr_denied_medical_necessity",
+      "passed": true,
+      "fields": "7/7",
+      "turns": 8,
+      "mean_ms": 0.0
+    },
+    {
+      "scenario": "ivr_denied_medical_necessity",
+      "passed": true,
+      "fields": "7/7",
+      "turns": 8,
+      "mean_ms": 0.0
+    },
+    {
+      "scenario": "ivr_denied_medical_necessity",
+      "passed": true,
+      "fields": "7/7",
+      "turns": 8,
+      "mean_ms": 0.0
+    },
+    {
+      "scenario": "ivr_denied_medical_necessity",
+      "passed": true,
+      "fields": "7/7",
+      "turns": 8,
+      "mean_ms": 0.0
+    },
+    {
+      "scenario": "ivr_denied_medical_necessity",
+      "passed": true,
+      "fields": "7/7",
+      "turns": 8,
+      "mean_ms": 0.0
+    },
+    {
+      "scenario": "ivr_denied_medical_necessity",
+      "passed": true,
+      "fields": "7/7",
+      "turns": 8,
+      "mean_ms": 0.0
+    },
+    {
+      "scenario": "ivr_denied_medical_necessity",
+      "passed": true,
+      "fields": "7/7",
+      "turns": 8,
+      "mean_ms": 0.0
+    },
+    {
+      "scenario": "ivr_denied_medical_necessity",
+      "passed": true,
+      "fields": "7/7",
+      "turns": 8,
+      "mean_ms": 0.0
+    },
+    {
+      "scenario": "ivr_denied_medical_necessity",
+      "passed": true,
+      "fields": "7/7",
+      "turns": 8,
+      "mean_ms": 0.0
+    },
+    {
+      "scenario": "ivr_denied_medical_necessity",
+      "passed": true,
+      "fields": "7/7",
+      "turns": 8,
+      "mean_ms": 0.0
+    },
+    {
+      "scenario": "ivr_denied_medical_necessity",
+      "passed": true,
+      "fields": "7/7",
+      "turns": 8,
+      "mean_ms": 0.0
+    },
+    {
+      "scenario": "ivr_denied_medical_necessity",
+      "passed": true,
+      "fields": "7/7",
+      "turns": 8,
+      "mean_ms": 0.0
+    },
+    {
+      "scenario": "ivr_denied_medical_necessity",
+      "passed": true,
+      "fields": "7/7",
+      "turns": 8,
+      "mean_ms": 0.0
+    },
+    {
+      "scenario": "ivr_pending",
+      "passed": true,
+      "fields": "5/5",
+      "turns": 8,
+      "mean_ms": 0.0
+    },
+    {
+      "scenario": "ivr_pending",
+      "passed": true,
+      "fields": "5/5",
+      "turns": 8,
+      "mean_ms": 0.0
+    },
+    {
+      "scenario": "ivr_pending",
+      "passed": true,
+      "fields": "5/5",
+      "turns": 8,
+      "mean_ms": 0.0
+    },
+    {
+      "scenario": "ivr_pending",
+      "passed": true,
+      "fields": "5/5",
+      "turns": 8,
+      "mean_ms": 0.0
+    },
+    {
+      "scenario": "ivr_pending",
+      "passed": true,
+      "fields": "5/5",
+      "turns": 8,
+      "mean_ms": 0.0
+    },
+    {
+      "scenario": "ivr_pending",
+      "passed": true,
+      "fields": "5/5",
+      "turns": 8,
+      "mean_ms": 0.0
+    },
+    {
+      "scenario": "ivr_pending",
+      "passed": true,
+      "fields": "5/5",
+      "turns": 8,
+      "mean_ms": 0.0
+    },
+    {
+      "scenario": "ivr_pending",
+      "passed": true,
+      "fields": "5/5",
+      "turns": 8,
+      "mean_ms": 0.0
+    },
+    {
+      "scenario": "ivr_pending",
+      "passed": true,
+      "fields": "5/5",
+      "turns": 8,
+      "mean_ms": 0.0
+    },
+    {
+      "scenario": "ivr_pending",
+      "passed": true,
+      "fields": "5/5",
+      "turns": 8,
+      "mean_ms": 0.0
+    },
+    {
+      "scenario": "ivr_pending",
+      "passed": true,
+      "fields": "5/5",
+      "turns": 8,
+      "mean_ms": 0.0
+    },
+    {
+      "scenario": "ivr_pending",
+      "passed": true,
+      "fields": "5/5",
+      "turns": 8,
+      "mean_ms": 0.0
+    },
+    {
+      "scenario": "ivr_pending",
+      "passed": true,
+      "fields": "5/5",
+      "turns": 8,
+      "mean_ms": 0.0
+    },
+    {
+      "scenario": "ivr_pending",
+      "passed": true,
+      "fields": "5/5",
+      "turns": 8,
+      "mean_ms": 0.0
+    },
+    {
+      "scenario": "ivr_pending",
+      "passed": true,
+      "fields": "5/5",
+      "turns": 8,
+      "mean_ms": 0.0
+    },
+    {
+      "scenario": "ivr_pending",
+      "passed": true,
+      "fields": "5/5",
+      "turns": 8,
+      "mean_ms": 0.0
+    },
+    {
+      "scenario": "ivr_pending",
+      "passed": true,
+      "fields": "5/5",
+      "turns": 8,
+      "mean_ms": 0.0
+    },
+    {
+      "scenario": "ivr_pending",
+      "passed": true,
+      "fields": "5/5",
+      "turns": 8,
+      "mean_ms": 0.0
+    },
+    {
+      "scenario": "ivr_pending",
+      "passed": true,
+      "fields": "5/5",
+      "turns": 8,
+      "mean_ms": 0.0
+    },
+    {
+      "scenario": "ivr_pending",
+      "passed": true,
+      "fields": "5/5",
+      "turns": 8,
+      "mean_ms": 0.0
+    },
+    {
+      "scenario": "ivr_denied_missing_info",
+      "passed": true,
+      "fields": "7/7",
+      "turns": 8,
+      "mean_ms": 0.0
+    },
+    {
+      "scenario": "ivr_denied_missing_info",
+      "passed": true,
+      "fields": "7/7",
+      "turns": 8,
+      "mean_ms": 0.0
+    },
+    {
+      "scenario": "ivr_denied_missing_info",
+      "passed": true,
+      "fields": "7/7",
+      "turns": 8,
+      "mean_ms": 0.0
+    },
+    {
+      "scenario": "ivr_denied_missing_info",
+      "passed": true,
+      "fields": "7/7",
+      "turns": 8,
+      "mean_ms": 0.0
+    },
+    {
+      "scenario": "ivr_denied_missing_info",
+      "passed": true,
+      "fields": "7/7",
+      "turns": 8,
+      "mean_ms": 0.0
+    },
+    {
+      "scenario": "ivr_denied_missing_info",
+      "passed": true,
+      "fields": "7/7",
+      "turns": 8,
+      "mean_ms": 0.0
+    },
+    {
+      "scenario": "ivr_denied_missing_info",
+      "passed": true,
+      "fields": "7/7",
+      "turns": 8,
+      "mean_ms": 0.0
+    },
+    {
+      "scenario": "ivr_denied_missing_info",
+      "passed": true,
+      "fields": "7/7",
+      "turns": 8,
+      "mean_ms": 0.0
+    },
+    {
+      "scenario": "ivr_denied_missing_info",
+      "passed": true,
+      "fields": "7/7",
+      "turns": 8,
+      "mean_ms": 0.0
+    },
+    {
+      "scenario": "ivr_denied_missing_info",
+      "passed": true,
+      "fields": "7/7",
+      "turns": 8,
+      "mean_ms": 0.0
+    },
+    {
+      "scenario": "ivr_denied_missing_info",
+      "passed": true,
+      "fields": "7/7",
+      "turns": 8,
+      "mean_ms": 0.0
+    },
+    {
+      "scenario": "ivr_denied_missing_info",
+      "passed": true,
+      "fields": "7/7",
+      "turns": 8,
+      "mean_ms": 0.0
+    },
+    {
+      "scenario": "ivr_denied_missing_info",
+      "passed": true,
+      "fields": "7/7",
+      "turns": 8,
+      "mean_ms": 0.0
+    },
+    {
+      "scenario": "ivr_denied_missing_info",
+      "passed": true,
+      "fields": "7/7",
+      "turns": 8,
+      "mean_ms": 0.0
+    },
+    {
+      "scenario": "ivr_denied_missing_info",
+      "passed": true,
+      "fields": "7/7",
+      "turns": 8,
+      "mean_ms": 0.0
+    },
+    {
+      "scenario": "ivr_denied_missing_info",
+      "passed": true,
+      "fields": "7/7",
+      "turns": 8,
+      "mean_ms": 0.0
+    },
+    {
+      "scenario": "ivr_denied_missing_info",
+      "passed": true,
+      "fields": "7/7",
+      "turns": 8,
+      "mean_ms": 0.0
+    },
+    {
+      "scenario": "ivr_denied_missing_info",
+      "passed": true,
+      "fields": "7/7",
+      "turns": 8,
+      "mean_ms": 0.0
+    },
+    {
+      "scenario": "ivr_denied_missing_info",
+      "passed": true,
+      "fields": "7/7",
+      "turns": 8,
+      "mean_ms": 0.0
+    },
+    {
+      "scenario": "ivr_denied_missing_info",
+      "passed": true,
+      "fields": "7/7",
+      "turns": 8,
+      "mean_ms": 0.0
+    },
+    {
+      "scenario": "ivr_claim_not_found",
+      "passed": true,
+      "fields": "2/2",
+      "turns": 8,
+      "mean_ms": 0.0
+    },
+    {
+      "scenario": "ivr_claim_not_found",
+      "passed": true,
+      "fields": "2/2",
+      "turns": 8,
+      "mean_ms": 0.0
+    },
+    {
+      "scenario": "ivr_claim_not_found",
+      "passed": true,
+      "fields": "2/2",
+      "turns": 8,
+      "mean_ms": 0.0
+    },
+    {
+      "scenario": "ivr_claim_not_found",
+      "passed": true,
+      "fields": "2/2",
+      "turns": 8,
+      "mean_ms": 0.0
+    },
+    {
+      "scenario": "ivr_claim_not_found",
+      "passed": true,
+      "fields": "2/2",
+      "turns": 8,
+      "mean_ms": 0.0
+    },
+    {
+      "scenario": "ivr_claim_not_found",
+      "passed": true,
+      "fields": "2/2",
+      "turns": 8,
+      "mean_ms": 0.0
+    },
+    {
+      "scenario": "ivr_claim_not_found",
+      "passed": true,
+      "fields": "2/2",
+      "turns": 8,
+      "mean_ms": 0.0
+    },
+    {
+      "scenario": "ivr_claim_not_found",
+      "passed": true,
+      "fields": "2/2",
+      "turns": 8,
+      "mean_ms": 0.0
+    },
+    {
+      "scenario": "ivr_claim_not_found",
+      "passed": true,
+      "fields": "2/2",
+      "turns": 8,
+      "mean_ms": 0.0
+    },
+    {
+      "scenario": "ivr_claim_not_found",
+      "passed": true,
+      "fields": "2/2",
+      "turns": 8,
+      "mean_ms": 0.0
+    },
+    {
+      "scenario": "ivr_claim_not_found",
+      "passed": true,
+      "fields": "2/2",
+      "turns": 8,
+      "mean_ms": 0.0
+    },
+    {
+      "scenario": "ivr_claim_not_found",
+      "passed": true,
+      "fields": "2/2",
+      "turns": 8,
+      "mean_ms": 0.0
+    },
+    {
+      "scenario": "ivr_claim_not_found",
+      "passed": true,
+      "fields": "2/2",
+      "turns": 8,
+      "mean_ms": 0.0
+    },
+    {
+      "scenario": "ivr_claim_not_found",
+      "passed": true,
+      "fields": "2/2",
+      "turns": 8,
+      "mean_ms": 0.0
+    },
+    {
+      "scenario": "ivr_claim_not_found",
+      "passed": true,
+      "fields": "2/2",
+      "turns": 8,
+      "mean_ms": 0.0
+    },
+    {
+      "scenario": "ivr_claim_not_found",
+      "passed": true,
+      "fields": "2/2",
+      "turns": 8,
+      "mean_ms": 0.0
+    },
+    {
+      "scenario": "ivr_claim_not_found",
+      "passed": true,
+      "fields": "2/2",
+      "turns": 8,
+      "mean_ms": 0.0
+    },
+    {
+      "scenario": "ivr_claim_not_found",
+      "passed": true,
+      "fields": "2/2",
+      "turns": 8,
+      "mean_ms": 0.0
+    },
+    {
+      "scenario": "ivr_claim_not_found",
+      "passed": true,
+      "fields": "2/2",
+      "turns": 8,
+      "mean_ms": 0.0
+    },
+    {
+      "scenario": "ivr_claim_not_found",
+      "passed": true,
+      "fields": "2/2",
+      "turns": 8,
+      "mean_ms": 0.0
+    },
+    {
+      "scenario": "ivr_flaky_input_retry",
+      "passed": true,
+      "fields": "7/7",
+      "turns": 9,
+      "mean_ms": 0.0
+    },
+    {
+      "scenario": "ivr_flaky_input_retry",
+      "passed": true,
+      "fields": "7/7",
+      "turns": 9,
+      "mean_ms": 0.0
+    },
+    {
+      "scenario": "ivr_flaky_input_retry",
+      "passed": true,
+      "fields": "7/7",
+      "turns": 9,
+      "mean_ms": 0.0
+    },
+    {
+      "scenario": "ivr_flaky_input_retry",
+      "passed": true,
+      "fields": "7/7",
+      "turns": 9,
+      "mean_ms": 0.0
+    },
+    {
+      "scenario": "ivr_flaky_input_retry",
+      "passed": true,
+      "fields": "7/7",
+      "turns": 9,
+      "mean_ms": 0.0
+    },
+    {
+      "scenario": "ivr_flaky_input_retry",
+      "passed": true,
+      "fields": "7/7",
+      "turns": 9,
+      "mean_ms": 0.0
+    },
+    {
+      "scenario": "ivr_flaky_input_retry",
+      "passed": true,
+      "fields": "7/7",
+      "turns": 9,
+      "mean_ms": 0.0
+    },
+    {
+      "scenario": "ivr_flaky_input_retry",
+      "passed": true,
+      "fields": "7/7",
+      "turns": 9,
+      "mean_ms": 0.0
+    },
+    {
+      "scenario": "ivr_flaky_input_retry",
+      "passed": true,
+      "fields": "7/7",
+      "turns": 9,
+      "mean_ms": 0.0
+    },
+    {
+      "scenario": "ivr_flaky_input_retry",
+      "passed": true,
+      "fields": "7/7",
+      "turns": 9,
+      "mean_ms": 0.0
+    },
+    {
+      "scenario": "ivr_flaky_input_retry",
+      "passed": true,
+      "fields": "7/7",
+      "turns": 9,
+      "mean_ms": 0.0
+    },
+    {
+      "scenario": "ivr_flaky_input_retry",
+      "passed": true,
+      "fields": "7/7",
+      "turns": 9,
+      "mean_ms": 0.0
+    },
+    {
+      "scenario": "ivr_flaky_input_retry",
+      "passed": true,
+      "fields": "7/7",
+      "turns": 9,
+      "mean_ms": 0.0
+    },
+    {
+      "scenario": "ivr_flaky_input_retry",
+      "passed": true,
+      "fields": "7/7",
+      "turns": 9,
+      "mean_ms": 0.0
+    },
+    {
+      "scenario": "ivr_flaky_input_retry",
+      "passed": true,
+      "fields": "7/7",
+      "turns": 9,
+      "mean_ms": 0.0
+    },
+    {
+      "scenario": "ivr_flaky_input_retry",
+      "passed": true,
+      "fields": "7/7",
+      "turns": 9,
+      "mean_ms": 0.0
+    },
+    {
+      "scenario": "ivr_flaky_input_retry",
+      "passed": true,
+      "fields": "7/7",
+      "turns": 9,
+      "mean_ms": 0.0
+    },
+    {
+      "scenario": "ivr_flaky_input_retry",
+      "passed": true,
+      "fields": "7/7",
+      "turns": 9,
+      "mean_ms": 0.0
+    },
+    {
+      "scenario": "ivr_flaky_input_retry",
+      "passed": true,
+      "fields": "7/7",
+      "turns": 9,
+      "mean_ms": 0.0
+    },
+    {
+      "scenario": "ivr_flaky_input_retry",
+      "passed": true,
+      "fields": "7/7",
+      "turns": 9,
+      "mean_ms": 0.0
+    },
+    {
+      "scenario": "rep_denied",
+      "passed": true,
+      "fields": "7/7",
+      "turns": 8,
+      "mean_ms": 0.0
+    },
+    {
+      "scenario": "rep_denied",
+      "passed": true,
+      "fields": "7/7",
+      "turns": 8,
+      "mean_ms": 0.0
+    },
+    {
+      "scenario": "rep_denied",
+      "passed": true,
+      "fields": "7/7",
+      "turns": 8,
+      "mean_ms": 0.0
+    },
+    {
+      "scenario": "rep_denied",
+      "passed": true,
+      "fields": "7/7",
+      "turns": 8,
+      "mean_ms": 0.0
+    },
+    {
+      "scenario": "rep_denied",
+      "passed": true,
+      "fields": "7/7",
+      "turns": 8,
+      "mean_ms": 0.0
+    },
+    {
+      "scenario": "rep_denied",
+      "passed": true,
+      "fields": "7/7",
+      "turns": 8,
+      "mean_ms": 0.0
+    },
+    {
+      "scenario": "rep_denied",
+      "passed": true,
+      "fields": "7/7",
+      "turns": 8,
+      "mean_ms": 0.0
+    },
+    {
+      "scenario": "rep_denied",
+      "passed": true,
+      "fields": "7/7",
+      "turns": 8,
+      "mean_ms": 0.0
+    },
+    {
+      "scenario": "rep_denied",
+      "passed": true,
+      "fields": "7/7",
+      "turns": 8,
+      "mean_ms": 0.0
+    },
+    {
+      "scenario": "rep_denied",
+      "passed": true,
+      "fields": "7/7",
+      "turns": 8,
+      "mean_ms": 0.0
+    },
+    {
+      "scenario": "rep_denied",
+      "passed": true,
+      "fields": "7/7",
+      "turns": 8,
+      "mean_ms": 0.0
+    },
+    {
+      "scenario": "rep_denied",
+      "passed": true,
+      "fields": "7/7",
+      "turns": 8,
+      "mean_ms": 0.0
+    },
+    {
+      "scenario": "rep_denied",
+      "passed": true,
+      "fields": "7/7",
+      "turns": 8,
+      "mean_ms": 0.0
+    },
+    {
+      "scenario": "rep_denied",
+      "passed": true,
+      "fields": "7/7",
+      "turns": 8,
+      "mean_ms": 0.0
+    },
+    {
+      "scenario": "rep_denied",
+      "passed": true,
+      "fields": "7/7",
+      "turns": 8,
+      "mean_ms": 0.0
+    },
+    {
+      "scenario": "rep_denied",
+      "passed": true,
+      "fields": "7/7",
+      "turns": 8,
+      "mean_ms": 0.0
+    },
+    {
+      "scenario": "rep_denied",
+      "passed": true,
+      "fields": "7/7",
+      "turns": 8,
+      "mean_ms": 0.0
+    },
+    {
+      "scenario": "rep_denied",
+      "passed": true,
+      "fields": "7/7",
+      "turns": 8,
+      "mean_ms": 0.0
+    },
+    {
+      "scenario": "rep_denied",
+      "passed": true,
+      "fields": "7/7",
+      "turns": 8,
+      "mean_ms": 0.0
+    },
+    {
+      "scenario": "rep_denied",
+      "passed": true,
+      "fields": "7/7",
+      "turns": 8,
+      "mean_ms": 0.0
+    },
+    {
+      "scenario": "rep_paid",
+      "passed": true,
+      "fields": "6/6",
+      "turns": 8,
+      "mean_ms": 0.0
+    },
+    {
+      "scenario": "rep_paid",
+      "passed": true,
+      "fields": "6/6",
+      "turns": 8,
+      "mean_ms": 0.0
+    },
+    {
+      "scenario": "rep_paid",
+      "passed": true,
+      "fields": "6/6",
+      "turns": 8,
+      "mean_ms": 0.0
+    },
+    {
+      "scenario": "rep_paid",
+      "passed": true,
+      "fields": "6/6",
+      "turns": 8,
+      "mean_ms": 0.0
+    },
+    {
+      "scenario": "rep_paid",
+      "passed": true,
+      "fields": "6/6",
+      "turns": 8,
+      "mean_ms": 0.0
+    },
+    {
+      "scenario": "rep_paid",
+      "passed": true,
+      "fields": "6/6",
+      "turns": 8,
+      "mean_ms": 0.0
+    },
+    {
+      "scenario": "rep_paid",
+      "passed": true,
+      "fields": "6/6",
+      "turns": 8,
+      "mean_ms": 0.0
+    },
+    {
+      "scenario": "rep_paid",
+      "passed": true,
+      "fields": "6/6",
+      "turns": 8,
+      "mean_ms": 0.0
+    },
+    {
+      "scenario": "rep_paid",
+      "passed": true,
+      "fields": "6/6",
+      "turns": 8,
+      "mean_ms": 0.0
+    },
+    {
+      "scenario": "rep_paid",
+      "passed": true,
+      "fields": "6/6",
+      "turns": 8,
+      "mean_ms": 0.0
+    },
+    {
+      "scenario": "rep_paid",
+      "passed": true,
+      "fields": "6/6",
+      "turns": 8,
+      "mean_ms": 0.0
+    },
+    {
+      "scenario": "rep_paid",
+      "passed": true,
+      "fields": "6/6",
+      "turns": 8,
+      "mean_ms": 0.0
+    },
+    {
+      "scenario": "rep_paid",
+      "passed": true,
+      "fields": "6/6",
+      "turns": 8,
+      "mean_ms": 0.0
+    },
+    {
+      "scenario": "rep_paid",
+      "passed": true,
+      "fields": "6/6",
+      "turns": 8,
+      "mean_ms": 0.0
+    },
+    {
+      "scenario": "rep_paid",
+      "passed": true,
+      "fields": "6/6",
+      "turns": 8,
+      "mean_ms": 0.0
+    },
+    {
+      "scenario": "rep_paid",
+      "passed": true,
+      "fields": "6/6",
+      "turns": 8,
+      "mean_ms": 0.0
+    },
+    {
+      "scenario": "rep_paid",
+      "passed": true,
+      "fields": "6/6",
+      "turns": 8,
+      "mean_ms": 0.0
+    },
+    {
+      "scenario": "rep_paid",
+      "passed": true,
+      "fields": "6/6",
+      "turns": 8,
+      "mean_ms": 0.0
+    },
+    {
+      "scenario": "rep_paid",
+      "passed": true,
+      "fields": "6/6",
+      "turns": 8,
+      "mean_ms": 0.0
+    },
+    {
+      "scenario": "rep_paid",
+      "passed": true,
+      "fields": "6/6",
+      "turns": 8,
+      "mean_ms": 0.0
+    }
+  ]
+}

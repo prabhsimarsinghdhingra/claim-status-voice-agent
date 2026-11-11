@@ -1,0 +1,15 @@
+{
+  "providers": {
+    "1234567890": {"name": "Sunrise Family Clinic"}
+  },
+  "members": {
+    "123456789": {"name": "JANE DOE", "dob": "04121985"},
+    "987654321": {"name": "JOHN SMITH", "dob": "11302001"}
+  },
+  "claims": {
+    "20260811001": {"member": "123456789", "status": "paid", "billed": 210.00, "paid": 142.50, "trace": "EFT88231", "method": "EFT", "date": "10/02/2026"},
+    "20260811002": {"member": "123456789", "status": "denied", "billed": 310.00, "paid": 0.00, "code": "CO-50", "reason": "The service was not medically necessary", "date": "10/05/2026"},
+    "20260811003": {"member": "987654321", "status": "pending", "billed": 95.00, "paid": 0.00, "eta": "11/20/2026"},
+    "20260811004": {"member": "987654321", "status": "denied", "billed": 480.00, "paid": 0.00, "code": "CO-16", "reason": "Claim lacks information needed for adjudication", "date": "10/09/2026"}
+  }
+}

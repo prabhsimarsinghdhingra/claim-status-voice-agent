@@ -1,0 +1,34 @@
+{
+  "calls": 3,
+  "call_success_rate": 1.0,
+  "field_accuracy": 1.0,
+  "decision_ms_p50": 1246.7,
+  "decision_ms_p95": 2781.7,
+  "mean_turns": 8.3,
+  "llm_fallbacks_to_rules": 0,
+  "grounding_drops": 0,
+  "api_calls": 26,
+  "rows": [
+    {
+      "scenario": "ivr_denied_medical_necessity",
+      "passed": true,
+      "fields": "7/7",
+      "turns": 8,
+      "mean_ms": 1323.2
+    },
+    {
+      "scenario": "ivr_flaky_input_retry",
+      "passed": true,
+      "fields": "7/7",
+      "turns": 9,
+      "mean_ms": 1776.4
+    },
+    {
+      "scenario": "rep_denied",
+      "passed": true,
+      "fields": "7/7",
+      "turns": 8,
+      "mean_ms": 1425.0
+    }
+  ]
+}

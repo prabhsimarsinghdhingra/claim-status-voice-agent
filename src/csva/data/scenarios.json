@@ -1,0 +1,169 @@
+[
+  {
+    "id": "ivr_paid",
+    "flaky": false,
+    "query": {
+      "npi": "1234567890",
+      "member_id": "123456789",
+      "member_dob": "04121985",
+      "claim_number": "20260811001",
+      "patient_name": "Jane Doe",
+      "provider_name": "Sunrise Family Clinic",
+      "prefer_rep": false
+    },
+    "expect": {
+      "status": "paid",
+      "billed_amount": 210.0,
+      "paid_amount": 142.5,
+      "reference_number": "REF-17919",
+      "next_action": "none",
+      "check_number": "EFT88231"
+    }
+  },
+  {
+    "id": "ivr_denied_medical_necessity",
+    "flaky": false,
+    "query": {
+      "npi": "1234567890",
+      "member_id": "123456789",
+      "member_dob": "04121985",
+      "claim_number": "20260811002",
+      "patient_name": "Jane Doe",
+      "provider_name": "Sunrise Family Clinic",
+      "prefer_rep": false
+    },
+    "expect": {
+      "status": "denied",
+      "billed_amount": 310.0,
+      "paid_amount": 0.0,
+      "reference_number": "REF-25838",
+      "next_action": "appeal",
+      "denial_code": "CO-50",
+      "denial_reason": "The service was not medically necessary"
+    }
+  },
+  {
+    "id": "ivr_pending",
+    "flaky": false,
+    "query": {
+      "npi": "1234567890",
+      "member_id": "987654321",
+      "member_dob": "11302001",
+      "claim_number": "20260811003",
+      "patient_name": "John Smith",
+      "provider_name": "Sunrise Family Clinic",
+      "prefer_rep": false
+    },
+    "expect": {
+      "status": "pending",
+      "billed_amount": 95.0,
+      "paid_amount": 0.0,
+      "reference_number": "REF-33757",
+      "next_action": "follow_up"
+    }
+  },
+  {
+    "id": "ivr_denied_missing_info",
+    "flaky": false,
+    "query": {
+      "npi": "1234567890",
+      "member_id": "987654321",
+      "member_dob": "11302001",
+      "claim_number": "20260811004",
+      "patient_name": "John Smith",
+      "provider_name": "Sunrise Family Clinic",
+      "prefer_rep": false
+    },
+    "expect": {
+      "status": "denied",
+      "billed_amount": 480.0,
+      "paid_amount": 0.0,
+      "reference_number": "REF-41676",
+      "next_action": "resubmit",
+      "denial_code": "CO-16",
+      "denial_reason": "Claim lacks information needed for adjudication"
+    }
+  },
+  {
+    "id": "ivr_claim_not_found",
+    "flaky": false,
+    "query": {
+      "npi": "1234567890",
+      "member_id": "123456789",
+      "member_dob": "04121985",
+      "claim_number": "20269999999",
+      "patient_name": "Jane Doe",
+      "provider_name": "Sunrise Family Clinic",
+      "prefer_rep": false
+    },
+    "expect": {
+      "status": "not_found",
+      "next_action": "verify_claim_number"
+    }
+  },
+  {
+    "id": "ivr_flaky_input_retry",
+    "flaky": true,
+    "query": {
+      "npi": "1234567890",
+      "member_id": "123456789",
+      "member_dob": "04121985",
+      "claim_number": "20260811002",
+      "patient_name": "Jane Doe",
+      "provider_name": "Sunrise Family Clinic",
+      "prefer_rep": false
+    },
+    "expect": {
+      "status": "denied",
+      "billed_amount": 310.0,
+      "paid_amount": 0.0,
+      "reference_number": "REF-25838",
+      "next_action": "appeal",
+      "denial_code": "CO-50",
+      "denial_reason": "The service was not medically necessary"
+    }
+  },
+  {
+    "id": "rep_denied",
+    "flaky": false,
+    "query": {
+      "npi": "1234567890",
+      "member_id": "123456789",
+      "member_dob": "04121985",
+      "claim_number": "20260811002",
+      "patient_name": "Jane Doe",
+      "provider_name": "Sunrise Family Clinic",
+      "prefer_rep": true
+    },
+    "expect": {
+      "status": "denied",
+      "billed_amount": 310.0,
+      "paid_amount": 0.0,
+      "reference_number": "REF-25838",
+      "next_action": "appeal",
+      "denial_code": "CO-50",
+      "denial_reason": "The service was not medically necessary"
+    }
+  },
+  {
+    "id": "rep_paid",
+    "flaky": false,
+    "query": {
+      "npi": "1234567890",
+      "member_id": "123456789",
+      "member_dob": "04121985",
+      "claim_number": "20260811001",
+      "patient_name": "Jane Doe",
+      "provider_name": "Sunrise Family Clinic",
+      "prefer_rep": true
+    },
+    "expect": {
+      "status": "paid",
+      "billed_amount": 210.0,
+      "paid_amount": 142.5,
+      "reference_number": "REF-17919",
+      "next_action": "none",
+      "check_number": "EFT88231"
+    }
+  }
+]

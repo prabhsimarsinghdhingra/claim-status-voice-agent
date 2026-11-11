@@ -1,0 +1,66 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "claim-status-voice-agent"
+version = "0.2.0"
+description = "AI voice agent that phones a payer, navigates the IVR / rep, and returns structured claim status."
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.10"
+dependencies = ["pydantic>=2", "fastapi", "uvicorn"]
+
+[project.optional-dependencies]
+gemini = ["google-genai"]
+twilio = ["twilio"]
+dev = ["pytest", "pytest-cov", "hypothesis", "httpx", "ruff", "mypy", "build", "twine", "google-genai"]
+
+[project.scripts]
+csva = "csva.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+csva = ["py.typed", "data/*.json"]
+
+# ------------------------------------------------------------------ tooling
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+addopts = "-ra --strict-markers -m 'not live'"
+markers = ["live: calls the real Gemini API (needs GEMINI_API_KEY; run with: pytest -m live -o addopts='')"]
+filterwarnings = ["error::DeprecationWarning:csva.*"]
+
+[tool.coverage.run]
+source = ["csva"]
+branch = true
+omit = ["*/__main__.py"]
+
+[tool.coverage.report]
+show_missing = true
+skip_covered = false
+exclude_also = ["pragma: no cover", "if __name__ == .__main__.:", "raise NotImplementedError"]
+
+[tool.ruff]
+line-length = 120
+target-version = "py310"
+src = ["src", "tests"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP", "SIM", "RUF"]
+ignore = ["UP007", "UP045", "RUF012"]
+
+[tool.ruff.lint.per-file-ignores]
+"src/csva/brains.py" = ["E501"]  # the LLM system prompt is prose
+"tests/*" = ["B011", "E501", "RUF001"]
+
+[tool.mypy]
+python_version = "3.10"
+files = ["src/csva"]
+ignore_missing_imports = true
+warn_unused_ignores = true
+warn_redundant_casts = true
+check_untyped_defs = true
+no_implicit_optional = true

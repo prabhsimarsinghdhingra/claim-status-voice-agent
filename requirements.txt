@@ -1,0 +1,7 @@
+pydantic>=2
+fastapi
+uvicorn
+google-genai   # only needed for --brain gemini
+httpx          # only needed for tests (FastAPI TestClient)
+pytest
+# twilio       # only needed for scripts/place_call.py
